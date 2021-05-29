@@ -37,7 +37,3 @@ function scrapeDJIA(){
 scrapeSPX();
 scrapeCOMP();
 scrapeDJIA();
-
-document.getElementById("spx").innerHTML = scrapeSPX();
-document.getElementById("comp").innerHTML = scrapeCOMP();
-document.getElementById("djia").innerHTML = scrapeDJIA();
