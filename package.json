@@ -1,0 +1,20 @@
+{
+  "name": "scss-site",
+  "version": "1.0.0",
+  "description": "a test site for scss and javascript web scraping",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "glowing-octo-telegram"
+  },
+  "author": "cameron jordan",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "node-sass": "^6.0.0",
+    "request": "^2.88.2"
+  }
+}
