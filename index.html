@@ -3,28 +3,18 @@
   <head>
     <link rel="stylesheet" href="output.css">
     <meta charset="utf-8">
-    <script src="scraper.js"></script>
+    <script src="output.js"></script>
     <title>Scrolling Stock Ticker</title>
   </head>
   <body>
     <div class="table-center">
       <div class="monitor-wrapper center">
         <div class="monitor center">
-          <p id="spx">
             <script>
               scrapeSPX();
-            </script>
-          </p>
-          <p id="comp">
-            <script>
               scrapeCOMP();
-            </script>
-          </p>
-          <p id="djia">
-            <script>
               scrapeDJIA();
             </script>
-          </p>
         </div>
       </div>
     </div>

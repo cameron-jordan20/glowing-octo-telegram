@@ -1,6 +1,9 @@
 const cheerio = require('cheerio');
 const request = require('request');
 
+console.log(cheerio);
+console.log(request);
+
 let spx = null;
 function scrapeSPX(){
   request('http://www.marketwatch.com/investing/index/spx', function(error, Response, html){
